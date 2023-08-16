@@ -10,6 +10,10 @@ const types = {
 		message:
 			"The password must have 1 uppercase, 1 lowercase and 1 digit character. With a minimum of 8 characters.",
 	},
+	number: {
+		regex: /^\d+$/,
+		message: "Numbers only",
+	},
 };
 
 function useForm(type) {
